@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-@media only screen and (690px <= width < 1024px) {
+@media only screen and (max-width: 600px) {
   .categories {
     flex-direction: column;
   }
@@ -109,11 +109,11 @@ h4 {
   background-color: hsla(16, 88%, 80%, 0.382);
 }
 
-.line {
+/*.line {
   position: absolute;
   opacity: 0.5;
   bottom: 0px;
-  left: 90px;
+  left: 90px;*/
 }
 
 .circle-orange {
