@@ -1,1 +1,158 @@
-/* Start coding here */
+@media only screen and (690px <= width < 1024px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  width: 200px;
+  height: auto;
+  flex-basis: 10%;
+  word-break: break-all;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container {
+  flex-basis: 90%;
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content {
+  width: auto;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.content#no1 {
+  flex: 1;
+}
+.content#no2 {
+  flex: 2;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(128, 128, 128, 0.07);
+  display: flex;
+  position: relative;
+  border-radius: 3px;
+  background-color: rgba(128, 128, 128, 0.04);
+}
+
+.box#bold {
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(128, 128, 128, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  border-radius: 3px;
+  background-color: orange;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 166, 0, 0.412);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  color: orange;
+
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.circle#bold {
+  background-color: orange;
+  color: aliceblue;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+}
+
+.lasttitle {
+  font-size: 1rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.result {
+  font-size: 0.75rem;
+  color: gray;
+
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.pointer {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.lastpointer {
+  color: aliceblue;
+}
+
+span {
+  width: auto;
+  height: auto;
+  background: linear-gradient(to bottom, aliceblue 50%, orange 50%);
+}
+
+.fa-solid {
+  color: darkorange;
+}
+
+.fa-dollar-sign {
+  color: aliceblue;
+}
+
+.fa-arrow-right {
+  color: black;
+}
+
+.fa-arrow-right#last {
+  color: white;
+}
