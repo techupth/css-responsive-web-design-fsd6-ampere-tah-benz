@@ -1,1 +1,92 @@
 /* Start coding here */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+h2 {
+  text-align: center;
+  color: #183b56;
+}
+
+p {
+  color: #5a7184;
+}
+
+.container-1 {
+  border-radius: solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 70%;
+  gap: 20px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7 {
+  color: #183b56;
+  border: 0.5px solid #ededed;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 11px;
+  height: 150px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.item-8 {
+  border-radius: 5px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 5px;
+  border: 0.5px solid #ededed;
+  background-color: #ff8345;
+  font-size: 11px;
+  height: 150px;
+  width: 180px;
+}
+
+.i1 {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: end;
+}
