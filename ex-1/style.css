@@ -1,5 +1,6 @@
-@media only screen and (690px <= width < 1024px) {
-  .content {
+@media only screen and (200px <= width < 767px) {
+  .content#no1,
+  .content#no2 {
     flex-direction: column;
   }
 }
